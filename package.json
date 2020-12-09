@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "Responisve Portfolio Website",
   "main": "index.js",
+  "homepage": "https://tony-the-coder.github.io/Finally-learned-a-nice-menu-design",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Aldea Consulting Services",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^3.1.0",
     "node-sass": "^5.0.0"
   }
 }
